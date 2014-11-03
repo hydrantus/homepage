@@ -9,7 +9,12 @@
 			border-collapse: collapse;
 			width: 100%;
 			text-align: left;
+			page-break-inside: auto;
 		}
+ 		tr {
+ 			page-break-inside:avoid;
+ 			page-break-after:auto
+ 		}
 		h3 {
 			display: block;
 			font-size: 1em;
@@ -55,6 +60,13 @@
 		}
 		img {
 			width: 140px
+		}
+		@media all {
+			.page-break	{ display: none; }
+		}
+
+		@media print {
+			.page-break	{ display: block; page-break-before: always; }
 		}
 	</style>
 </head>
