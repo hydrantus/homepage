@@ -29,7 +29,7 @@
 			margin-top: 0.5em;
 		}
 
-	  .pub li { margin-bottom: 0.8em; }
+		.pub li { margin-bottom: 0.8em; }
 
 		table {
 			margin-bottom: 0.5em;
@@ -42,27 +42,38 @@
 			text-align: center;
 		}
 
+		.flag {
+			width: 30px;
+			display: inline-block;
+		}
+		.old {
+			opacity: 0.4;
+    		filter: alpha(opacity=40);
+    	}
+
 	</style>
 	<link REL="SHORTCUT ICON" HREF="resources/ja.ico" />
 </head>
 <body>
 	<div id="container">
 		<div id="foto">
-			<img src="resources/Andrej%20Mikulik.jpg" alt="Andrej Mikulík" width="150" height="150" />
+			<!--<img src="resources/Andrej%20Mikulik.jpg" alt="Andrej Mikulík" width="150" height="150" />-->
+			<img src="resources/20110824%20Mikulik.jpg" alt="Andrej Mikulík" width="150" />
 		</div>
 		<h1>Andrej Mikulík</h1>
 
 		<h3>Contact</h3>
 		<p>
-			+420 777 598 428 (Czech Republic)<br />
-			<span style="color: gray;">+421 944 508 620 (Slovakia)</span><br />
-			<span style="color: gray;">+447 763 835 551 (United Kingdom)</span><br />
+			<div class="flag"><img src="resources/flag_ch.png" /></div>+41&nbsp;&nbsp;&nbsp;765 752 639<br />
+			<span class="old"><div class="flag"><img src="resources/flag_sk.png" /></div>+421 944 508 620</span><br />
+			<span class="old"><div class="flag"><img src="resources/flag_cz.png" /></div>+420 777 598 428</span><br />
 			<a href="mailto:andrej&#64;mikulik.sk">andrej&#64;mikulik.sk</a>
 		</p>
 		<h3>CV</h3>
-		<ul>
-			<li><a href="cv/cv.html">curriculum vitae</a>&nbsp;&nbsp;&nbsp;[<a href="cv/cv.html">html</a>|<a href="cv/cv.pdf">pdf</a>]&nbsp;&nbsp;&nbsp;(last change 10<sup>th</sup> January 2014)</li>
-		</ul>
+		<p>
+			<a href="cv/cv_20141102.html">curriculum vitae</a>&nbsp;&nbsp;&nbsp;[<a href="cv/cv_20141102.html">html</a>|<a href="cv/cv_20141102.pdf">pdf</a>]
+			<!--&nbsp;<br/><span style="font-size:smaller;">(last change 10<sup>th</sup> January 2014)</span>-->
+		</p>
 		<h3>Education</h3>
 		<p>
 			I’m PhD student at<br />
@@ -88,7 +99,8 @@
 -->
 		<h3>Publications</h3>
 		<p><ul class="pub">
-		<li>Mikulik&nbsp;A., Chum&nbsp;O., Matas&nbsp;J.<br /><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-41062-8_2" target="_blank">Image Retrieval for Online Browsing in Large Image Collections</a><br />In proceedings of SISAP 2013. [<a class="paper" href="http://mikulik.sk/publications/mikulik_sisap13.pdf">pdf</a>|<a href="publications/mikulik_sisap13.bib">bib</a>]
+		<li>Mikulik&nbsp;A., Radenović F., Chum&nbsp;O., Matas&nbsp;J.<br /><a href="pub;ications/mikulik_accv14.pdf" target="_blank">Efficient Image Detail Mining</a><br />In proceedings of ACCV 2014. [<a class="paper" href="publications/mikulik_accv14.pdf">pdf</a>]
+		<li>Mikulik&nbsp;A., Chum&nbsp;O., Matas&nbsp;J.<br /><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-41062-8_2" target="_blank">Image Retrieval for Online Browsing in Large Image Collections</a><br />In proceedings of SISAP 2013. [<a class="paper" href="publications/mikulik_sisap13.pdf">pdf</a>|<a href="publications/mikulik_sisap13.bib">bib</a>]
 		<li>Mikulik A., Perdoch M., Chum O., Matas J.<br/><a href="http://link.springer.com/article/10.1007%2Fs11263-012-0600-1" target="_blank">Learning Vocabularies over a Fine Quantization</a><br/>IJCV 2012. [<a href="publications/mikulik_ijcv12.pdf">pdf</a>|<a href="publications/mikulik_ijcv12.bib">bib</a>|<a href="publications/ijcv2012/index.html">files</a>]</li>
 		<li>Chum O., Mikulik A., Perdoch M., Matas J.<br/><a href="publications/chum_cvpr11.pdf">Total Recall II: Query Expansion Revisited</a><br/>In proceedings of CVPR 2011. [<a href="publications/chum_cvpr11.pdf">pdf</a>|<a href="publications/chum_cvpr11.bib">bib</a>]</li><!--|<a href="publications/chum_cvpr11_poster.pdf">poster</a>]</li>-->
 		<li>Mikulik A., Perdoch M., Chum O., Matas J.<br/><a href="publications/mikulik_eccv10.pdf">Learning a Fine Vocabulary</a><br/>In proceedings of ECCV 2010. [<a href="publications/mikulik_eccv10.pdf">pdf</a>|<a href="publications/mikulik_eccv10.bib">bib</a>|<a href="publications/mikulik_eccv10_poster.pdf">poster</a>]</li>
